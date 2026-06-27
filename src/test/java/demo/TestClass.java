@@ -2,14 +2,18 @@ package demo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class TestClass {
 
 
     @Test
-    public  void test(){
+    public  void test() {
 
-        WebDriver driver=new ChromeDriver();
+        // 1. Initialize ChromeOptions
+        WebDriver options =  new ChromeDriver();
+
+
     }
 }

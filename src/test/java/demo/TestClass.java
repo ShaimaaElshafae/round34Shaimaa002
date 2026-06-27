@@ -2,7 +2,6 @@ package demo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class TestClass {
@@ -12,7 +11,7 @@ public class TestClass {
     public  void test() {
 
         // 1. Initialize ChromeOptions
-        WebDriver options =  new ChromeDriver();
+        WebDriver driver =  new ChromeDriver();
 
 
     }

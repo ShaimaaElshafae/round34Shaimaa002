@@ -16,6 +16,7 @@ import javax.swing.*;
 import java.time.Duration;
 
 public class TestClass {
+
     WebDriver chromeDriver;
     WebDriver firefoxDriver;
     @BeforeMethod

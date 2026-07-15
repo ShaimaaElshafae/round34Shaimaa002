@@ -5,9 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import template.TestCase;
-
-import java.time.Duration;
+import demo.template.TestCase;
 
 @Test
 public class JqueryUiTests extends TestCase {

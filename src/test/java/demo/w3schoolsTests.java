@@ -1,15 +1,13 @@
 package demo;
 
+import demo.template.TestCase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
 @Test
-public class w3schoolsTests  extends template.TestCase{
+public class w3schoolsTests  extends TestCase {
 
     @BeforeMethod
     public void beforeW3SchoolsMethod()

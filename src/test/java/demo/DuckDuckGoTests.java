@@ -1,16 +1,12 @@
 package demo;
 
-import com.google.errorprone.annotations.Var;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import template.TestCase;
-
-import java.time.Duration;
+import demo.template.TestCase;
 
 @Test
 public class DuckDuckGoTests extends TestCase {

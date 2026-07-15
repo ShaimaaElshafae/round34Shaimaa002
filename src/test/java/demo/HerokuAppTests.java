@@ -3,7 +3,7 @@ package demo;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import template.TestCase;
+import demo.template.TestCase;
 import static org.testng.Assert.assertTrue;
 
 
